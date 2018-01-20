@@ -66,4 +66,8 @@ One of those ways is using Fragments, defined as `fr` in CSS.
 
 `grid-template-columns: 100px 1fr;`
 
+Another way of going about this would be;
+
+`grid-template-columns: 100px auto;`
+
 This will make the second column as wide as the available space.
